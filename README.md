@@ -40,7 +40,7 @@ You can activate the stopwatch for every call against the GetId3 library by addi
 configuration:
 
 ```yaml
-simonsimcity_couchbase:
+simonsimcity_get_id3:
     profiler_enabled: true
 ```
 
