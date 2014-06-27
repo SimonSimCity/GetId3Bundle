@@ -1,0 +1,22 @@
+{
+    "name": "simonsimcity/get-id3-bundle",
+    "type": "symfony-bundle",
+    "description": "Makes it easy to show the getId3 library in symfony's debugger timeline",
+    "keywords": ["GetId3", "symfony", "timeline", "debug", "profile"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Schick",
+            "email": "simonsimcity@gmail.com"
+        }
+    ],
+    "require": {
+        "phansys/getid3": "2.1.*@dev",
+        "symfony/framework-bundle": "~2.1"
+    },
+    "autoload": {
+        "psr-0": { "Simonsimcity\\GetId3Bundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "Simonsimcity/GetId3Bundle"
+}
